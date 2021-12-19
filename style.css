@@ -47,6 +47,7 @@
 }
 
 .tempCont {
+    padding-top: 30px;
     text-align: center;
     border: 4px aliceblue solid;
     grid-area: temp;
