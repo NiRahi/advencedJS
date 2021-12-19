@@ -15,7 +15,7 @@
 }
 
 .headerCont {
-    font-size: 20px;
+    font-size: 18px;
     grid-area: header;
     text-align: center;
     background-color: #A5795A;
@@ -28,19 +28,19 @@
     background-color: #5A86A5;
     text-align: center;
     grid-area: search;
-    padding-top: 20px;
+    padding-top: 25px;
     border: 5px aliceblue solid;
      border-radius: 15px;
 }
 
 
 .cityCont {
-    padding-top: 10px;
+    padding-top: 9px;
     border: 5px aliceblue solid;
     text-align: center;
     grid-area: name;
     background-color: #5A86A5;
-    font-size: 30px;
+    font-size: 27px;
     display: none;
     border-radius: 15px;
 
@@ -48,7 +48,7 @@
 
 .tempCont {
     text-align: center;
-    border: 5px aliceblue solid;
+    border: 4px aliceblue solid;
     grid-area: temp;
     background-color: #5A86A5;
     display: none;
@@ -57,10 +57,10 @@
 }
 
 .iconCont {
-font-size: 30px;
-padding-top: 10px;
+font-size: 27px;
+padding-top: 9px;
 text-align: center;
-border: 5px aliceblue solid;
+border: 4px aliceblue solid;
 grid-area: icon;
 background-color: #5A86A5;
 display: none;
@@ -70,11 +70,11 @@ text-transform:capitalize;
 
 
 .infoCont {
-    padding-top: 30px;
+    padding-top: 27px;
     display: none;
-    font-size: 35px;
+    font-size: 32px;
     text-align: center;
- border: 5px aliceblue solid;
+ border: 4px aliceblue solid;
 grid-area: info;
 background-color: #5A86A5;
 border-radius: 15px;
@@ -82,12 +82,12 @@ border-radius: 15px;
 }
 
 .footerCont {
-    border: 5px aliceblue solid;
+    border: 4px aliceblue solid;
     grid-area: footer;
     background-color: #A5795A;
     text-align:right;
-    padding-top: 15px;
-    padding-right: 15px;
+    padding-top: 14px;
+    padding-right: 14px;
     border-radius: 15px;
 }
 
@@ -95,11 +95,11 @@ border-radius: 15px;
     background-color: white;
     border: black solid 1px;
     text-align: center;
-    font-size: 40px;
+    font-size: 36px;
     border-radius: 4px;
-    margin-top: 30px;
+    margin-top: 27px;
     font-weight: bold;
-    padding: 10px;
+    padding: 9px;
 }
 
 #button:active {
@@ -110,8 +110,8 @@ border-radius: 15px;
     font-weight: bold;
     width: 300px;
     background-color: #f7f7f7;
-    font-size: 40px;
-    padding: 10px;
+    font-size: 36px;
+    padding: 9px;
     text-decoration: none;
     border: white 1px solid;
     border-radius: 4px;
@@ -119,13 +119,13 @@ border-radius: 15px;
 }
 
 #temp {
-    font-size: 150px;
+    font-size: 135px;
 }
 
 #feelsLike {
-    font-size: 60px;
+    font-size: 54px;
 }
 
 #temperature{
-    font-size: 60px;
+    font-size: 54px;
 }
