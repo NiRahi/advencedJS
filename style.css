@@ -1,0 +1,131 @@
+
+.weatherContent {
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'temp search info'
+    'temp name info'
+    'temp icon info'
+    'footer footer footer';
+    grid-template-columns:40% auto 40%;
+    grid-template-rows:120px 230px auto auto 60px;
+    height: 98vh;
+    font-family: 'Acme', sans-serif;
+
+}
+
+.headerCont {
+    font-size: 20px;
+    grid-area: header;
+    text-align: center;
+    background-color: #A5795A;
+    border: solid 5px aliceblue;
+    border-radius: 15px;
+}
+
+
+.searchCont {
+    background-color: #5A86A5;
+    text-align: center;
+    grid-area: search;
+    padding-top: 20px;
+    border: 5px aliceblue solid;
+     border-radius: 15px;
+}
+
+
+.cityCont {
+    padding-top: 10px;
+    border: 5px aliceblue solid;
+    text-align: center;
+    grid-area: name;
+    background-color: #5A86A5;
+    font-size: 30px;
+    display: none;
+    border-radius: 15px;
+
+}
+
+.tempCont {
+    text-align: center;
+    border: 5px aliceblue solid;
+    grid-area: temp;
+    background-color: #5A86A5;
+    display: none;
+    border-radius: 15px;
+
+}
+
+.iconCont {
+font-size: 30px;
+padding-top: 10px;
+text-align: center;
+border: 5px aliceblue solid;
+grid-area: icon;
+background-color: #5A86A5;
+display: none;
+border-radius: 15px;
+text-transform:capitalize;
+}
+
+
+.infoCont {
+    padding-top: 30px;
+    display: none;
+    font-size: 35px;
+    text-align: center;
+ border: 5px aliceblue solid;
+grid-area: info;
+background-color: #5A86A5;
+border-radius: 15px;
+
+}
+
+.footerCont {
+    border: 5px aliceblue solid;
+    grid-area: footer;
+    background-color: #A5795A;
+    text-align:right;
+    padding-top: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+}
+
+#button {
+    background-color: white;
+    border: black solid 1px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 4px;
+    margin-top: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#button:active {
+    background-color: #A5795A;
+}
+#searchCity{
+    text-align: center;
+    font-weight: bold;
+    width: 300px;
+    background-color: #f7f7f7;
+    font-size: 40px;
+    padding: 10px;
+    text-decoration: none;
+    border: white 1px solid;
+    border-radius: 4px;
+
+}
+
+#temp {
+    font-size: 150px;
+}
+
+#feelsLike {
+    font-size: 60px;
+}
+
+#temperature{
+    font-size: 60px;
+}
